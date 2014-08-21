@@ -1,6 +1,8 @@
 import sys
 
-word = list(str(sys.argv[1]))
+#word = list(str(sys.argv[1]))
+
+word = sys.argv[1] 
 
 counted = dict((eh,word.count(eh)) for eh in word)
 
