@@ -14,7 +14,6 @@ def mysort(list):
 			if item  > list[n]: #& list.index(item) < n:
 				a = list.index(item)
 				list.insert(n, list.pop(a))
-				print "move"
 		n -= 1	
         list2 = list
 	end = len(list2) - 1
